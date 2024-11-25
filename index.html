@@ -20,7 +20,7 @@
             position: absolute;
             border-radius: 50%;
             opacity: 0.6;
-            filter: blur(20px); /* Slight diffusion */
+            filter: blur(40px); /* Slight diffusion */
             animation: moveCircle 10s ease-in-out infinite; /* Increased movement speed */
         }
         @keyframes moveCircle {
@@ -35,32 +35,32 @@
             }
         }
         .circle1 {
-            background-color: #4a6b7f; /* Dark Blue */
+            background-color: #A7C7E7; /* Soft Pastel Blue */
             width: 250px;
             height: 250px;
         }
         .circle2 {
-            background-color: #3b5c4e; /* Dark Green */
+            background-color: #B87A6C; /* Muted Coral */
             width: 300px;
             height: 300px;
         }
         .circle3 {
-            background-color: #2f4b42; /* Darker Green */
+            background-color: #5A7F9E; /* Dusty Blue */
             width: 220px;
             height: 220px;
         }
         .circle4 {
-            background-color: #5b7e99; /* Muted Dark Blue */
+            background-color: #A9CBB2; /* Soft Pastel Green */
             width: 280px;
             height: 280px;
         }
         .circle5 {
-            background-color: #3e5b46; /* Dark Green */
+            background-color: #9F6A5A; /* Dusty Red */
             width: 270px;
             height: 270px;
         }
         .circle6 {
-            background-color: #4e6c80; /* Muted Blue */
+            background-color: #B8A0C1; /* Muted Lavender */
             width: 320px;
             height: 320px;
         }
@@ -78,20 +78,23 @@
             text-align: center;
         }
         .text {
-            font-family: 'Poppins', sans-serif;
-            color: white; /* White text */
-            font-weight: 600;
-            font-size: 5rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        }
-        .subtext {
-            font-family: 'Poppins', sans-serif;
-            color: white; /* White text */
-            font-weight: 600;
-            font-size: 5rem; /* Increased to make it as wide as the rest of the text */
-            margin-top: 10px;
-            white-space: nowrap; /* Prevents line breaks */
-        }
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 1.1; /* Reduce line height to decrease space */
+}
+
+.subtext {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: 5px; /* Reduce the space above team_83 */
+    line-height: 1.1; /* Reduce line height for subtext */
+    white-space: nowrap;
+}
     </style>
 </head>
 <body>
@@ -104,7 +107,7 @@
 
     <div class="overlay">
         <div>
-            <div class="text">We are</div>
+            <div class="text">Hello, We are</div>
             <div class="subtext">team_83</div>
         </div>
     </div>
